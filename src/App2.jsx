@@ -864,7 +864,7 @@ export default function HomePage2() {
                 </li>
               </ul>
 
-              <div className="mt-6 rounded-3xl p-5" style={{ background: "rgba(255,255,255,0.12)" }}>
+              {/* <div className="mt-6 rounded-3xl p-5" style={{ background: "rgba(255,255,255,0.12)" }}>
                 <div className="text-sm font-extrabold">Nhận thông báo ca mới</div>
                 <div className="mt-1 text-sm opacity-90">Mỗi tuần một bản tin nhỏ để bạn kịp thời hỗ trợ.</div>
                 <div className="mt-4 flex flex-col gap-3 sm:flex-row">
@@ -880,7 +880,7 @@ export default function HomePage2() {
                     Đăng ký
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
