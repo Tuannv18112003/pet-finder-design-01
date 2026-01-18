@@ -6,7 +6,9 @@ import HomePage from './App1.jsx'
 import HomePage2 from './App2.jsx'
 
 const base = import.meta.env.BASE_URL || '/'
-const fullPath = window.location.pathname || '/'
+const params = new URLSearchParams(window.location.search)
+const redirectedPath = params.get('redirect')
+const fullPath = redirectedPath || window.location.pathname || '/'
 const path = fullPath.startsWith(base)
   ? `/${fullPath.slice(base.length)}`.replace('//', '/')
   : fullPath
